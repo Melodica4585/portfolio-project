@@ -1,0 +1,156 @@
+:root {
+    --main-heading: 'Playfair Display', serif;
+    --main-text: 'Crimson Text', serif;
+    --main-text-color: #112f58;
+}
+
+body {
+    background-image: url(../images/watercolor_with_blue_detailed_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Crimson Text', serif;
+    font-weight: 400;
+    text-align: start;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: var(--main-heading);
+    color: var(--main-text-color);
+    font-size: 60px;
+    text-align: start;
+    margin-top: 80px;
+}
+
+h2 {
+    font-family: var(--main-text);
+    font-weight: 600;
+    color: var(--main-text-color);
+    font-size: 48px;
+    text-align: start;
+    margin-top: 20px;
+    margin-bottom: 54px;
+}
+
+.nav-item {
+    font-size: 25px;
+}
+
+.navbar {
+    background-image: url(../images/watercolor_with_blue_detailed_background.jpg);
+    background-size: cover;
+    position: sticky;
+    top: 0;
+}
+
+.navbar-brand {
+    margin-left: 40px;
+}
+
+.nav-item {
+    margin-left: 10px;
+}
+
+.container-info {
+    margin-left: 40px;
+}
+
+.description {
+    font-size: 22px;
+    padding: 10px 0;
+}
+
+.links {
+    margin: 50px 0;
+    display: flex;
+    gap: 40px;
+}
+
+.link-about {
+    padding: 14px 26px;
+    font-size: 22px;
+}
+
+.link-contact {
+    padding: 14px 26px;
+    font-size: 22px;
+}
+
+.contacts_heading {
+    font-size: 100px;
+    margin: 30px 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contact-list {
+    list-style: none;
+    line-height: 1.92;
+}
+
+
+@media (max-width: 450px) {
+    .contacts_heading {
+        font-size: 48px;
+        text-align: center;
+    }
+
+    .container-info {
+        margin: 0 auto;
+    }
+
+    .contact-info {
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .data {
+        font-size: 18px;
+    }
+
+    .projects {
+        font-size: 48px;
+    }
+
+    .cover {
+        display: none;
+    }
+
+    .yoga {
+        margin-top: 20px;
+    }
+
+    .introduction {
+        font-size: 32px;
+        margin: 40px 0 40px;
+    }
+
+    .speciality {
+        font-size: 26px;
+        margin-bottom: 40px;
+    }
+
+    .link-about {
+        padding: 10px 12px;
+    }
+
+    .link-contact {
+        padding: 10px 12px;
+    }
+
+    .links {
+        margin-bottom: 20px;
+    }
+
+    .project-name {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .projects-promo {
+        margin-bottom: 20px;
+    }
+}
